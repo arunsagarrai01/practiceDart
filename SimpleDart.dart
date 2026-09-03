@@ -32,7 +32,7 @@ void main() {
 }*/
 
 // find the largest number
-
+/*
 void main() {
   int a = 25;
   int b = 18;
@@ -41,5 +41,19 @@ void main() {
     print("$a is larger");
   } else {
     print("$b is larger");
+  }
+}
+*/
+
+//Positive, negative, or zero
+void main() {
+  int number = -5;
+
+  if (number > 0) {
+    print("Positive");
+  } else if (number < 0) {
+    print("Negative");
+  } else {
+    print("Zero");
   }
 }
