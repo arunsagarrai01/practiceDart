@@ -20,6 +20,7 @@ void main() {
 
 // print odd or even
 
+/*
 void main() {
   int number = 15;
 
@@ -27,5 +28,18 @@ void main() {
     print("Even");
   } else {
     print("Odd");
+  }
+}*/
+
+// find the largest number
+
+void main() {
+  int a = 25;
+  int b = 18;
+
+  if (a > b) {
+    print("$a is larger");
+  } else {
+    print("$b is larger");
   }
 }
