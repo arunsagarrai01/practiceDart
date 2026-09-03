@@ -6,6 +6,7 @@ void main() {
 }
 */
 
+/*
 // Sum of two numbers
 void main() {
   int a = 10;
@@ -14,4 +15,17 @@ void main() {
   int sum = a + b;
 
   print("Sum = $sum");
+}
+*/
+
+// print odd or even
+
+void main() {
+  int number = 15;
+
+  if (number % 2 == 0) {
+    print("Even");
+  } else {
+    print("Odd");
+  }
 }
