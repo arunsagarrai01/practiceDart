@@ -126,9 +126,7 @@ class CartStateManager {
 // display cart function
 
 void displayCart(CartStateManager cartManager) {
-  print("\n==============================");
-  print("          SHOPPING CART");
-  print("==============================");
+  print("SHOPPING CART");
 
   if (cartManager.cart.isEmpty) {
     print("Cart is empty.");
@@ -142,15 +140,11 @@ void displayCart(CartStateManager cartManager) {
     }
   }
 
-  print("------------------------------");
   print("Total items: ${cartManager.totalItems}");
   print("Total price: Rs. ${cartManager.totalPrice.toStringAsFixed(2)}");
-  print("==============================");
 }
 
-// ---------------------------
-// MAIN
-// ---------------------------
+//main
 
 void main() {
   // Create products
@@ -169,9 +163,7 @@ void main() {
   });
 
   while (true) {
-    print("\n==============================");
-    print("       ONLINE SHOP");
-    print("==============================");
+    print("ONLINE SHOP");
     print("1. Add Laptop");
     print("2. Add Phone");
     print("3. Add Headphones");
@@ -181,7 +173,6 @@ void main() {
     print("7. Remove Product");
     print("8. Clear Cart");
     print("9. Exit");
-    print("==============================");
 
     stdout.write("Enter choice: ");
 
